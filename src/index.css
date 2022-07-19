@@ -1,0 +1,52 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(133, 134, 199);
+}
+
+.main_div{
+  margin: 22vh 16vw;
+  height: auto;
+  width: auto;
+  padding: 12vh 6vw;
+  background-color: rgb(240, 235, 229);
+  display: flex;
+  justify-content: center;
+  border-style:outset
+}
+
+.Form{
+  color: brown;
+  padding: 0%;
+
+}
+
+.plus{
+  width: 4vw;
+  height: 3vh;
+  border-radius: 19vh;
+  background-color: rgb(190, 141, 236);
+}
+
+.items{
+  font-family: 'Alegreya', serif;
+  /* font-family: 'The Nautigal', cursive; */
+  font-size:1.5vw;
+  display: flex;
+  padding-left: 1.4vw;
+}
+
+.remove{
+  float: left;
+  padding-left: 0.5vw;
+  border-radius: 34vw;
+  background-color: greenyellow;
+  border-style: double;
+}
+.remove:hover{
+  background-color: crimson;
+  color: yellow;
+}
